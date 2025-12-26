@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="TG-fullname-logo.svg" width=100% />
+<img src="./TG-fullname-logo.svg" width=100% />
 
 [![PyPI version](https://img.shields.io/pypi/v/trustgraph.svg)](https://pypi.org/project/trustgraph/) ![E2E Tests](https://github.com/trustgraph-ai/trustgraph/actions/workflows/release.yaml/badge.svg)
 [![Discord](https://img.shields.io/discord/1251652173201149994
@@ -37,8 +37,6 @@ Deploy the entire TrustGraph platform—including your sensitive knowledge graph
 
 Automatically build knowledge graphs with **ontology-driven construction**, **hybrid retrieval** combining vector and graph search, and **structured data processing** for seamless integration of XML, JSON, and CSV data from across your enterprise.
 
----
-
 ## 🏗️ Key Capabilities
 
 ### Context Graph Construction
@@ -69,45 +67,6 @@ Automatically build knowledge graphs with **ontology-driven construction**, **hy
 - **Access Controls & Secrets Management** — Enterprise security with fine-grained permissions and credential handling
 - **Flexible Storage** — Graph databases (Neo4j, Cassandra, Memgraph), vector stores (Qdrant, Pinecone, Milvus), and support for structured data
 
----
-
-## 🚀 Getting Started
-
-### Deploy TrustGraph in Minutes
-
-```bash
-# Clone the repository
-git clone https://github.com/trustgraph-ai/trustgraph.git
-cd trustgraph
-
-# Use the Configuration Builder for your deployment
-# Visit: https://trustgraph.ai/builder
-
-# Deploy locally with Docker Compose
-docker compose up -d
-```
-
-### Access the Workbench
-
-Once deployed, the **TrustGraph Workbench** is available at `http://localhost:8888`:
-
-- **Load & Manage Data** — Add documents and manage knowledge
-- **Design Flows** — Create processing pipelines and configure how data becomes knowledge
-- **Build Agents** — Test agents and GraphRAG queries
-- **Monitor Progress** — Track processing status and system performance
-- **Manage Ontologies** — Define custom ontologies for structured knowledge extraction
-
-### Learn & Explore
-
-- **[Quickstart Guide](https://docs.trustgraph.ai/getting-started/quickstart.html)** — Get running in 5 minutes
-- **[Core Concepts](https://docs.trustgraph.ai/getting-started/concepts.html)** — Understand knowledge graphs, GraphRAG, and vectors
-- **[Architecture Guide](https://docs.trustgraph.ai/overview/architecture.html)** — Deep dive into system design
-- **[Configuration Builder](https://trustgraph.ai/builder)** — Visually assemble your deployment
-- **[Example Notebooks](https://github.com/trustgraph-ai/trustgraph-examples)** — Real-world use cases
-- **[API Documentation](https://docs.trustgraph.ai)** — CLI, REST APIs, and SDK reference
-
----
-
 ## 🔌 Integrations
 
 TrustGraph connects seamlessly with your existing enterprise stack:
@@ -132,8 +91,6 @@ Prometheus • Grafana
 
 ### External Tools & Services
 Model Context Protocol (MCP) for seamless agent integration with external APIs and tools
-
----
 
 ## 🏛️ Platform Architecture
 
@@ -173,62 +130,6 @@ TrustGraph is built on a modular, microservices architecture designed for enterp
 └───────────────────────────────────────────────────────────────┘
 ```
 
----
-
-## 💡 Use Cases
-
-### Enterprise Data Integration & Knowledge Management
-Connect fragmented data silos—databases, documents, APIs—and transform them into a unified knowledge graph that powers accurate AI systems.
-
-### Agentic RAG at Enterprise Scale
-Deploy sophisticated agents that perform deep contextual reasoning across your knowledge graphs, reducing hallucinations and providing grounded answers.
-
-### Intelligent Document Processing
-Automatically extract structured information from diverse document types (PDFs, emails, reports) and build searchable knowledge graphs.
-
-### Fleet & Logistics Intelligence
-Process vehicle telematics, maintenance records, and operational data into actionable insights with knowledge graphs that understand relationships and context.
-
-### Compliance & Audit Intelligence
-Maintain complete control and transparency over how enterprise data is processed and used by AI systems, with full audit trails and access controls.
-
-### Customer & Product Intelligence
-Build knowledge graphs from customer data, product information, and market intelligence to power personalized AI experiences.
-
----
-
-## 🛠️ For Developers
-
-### Key Repositories
-
-| Repository | Purpose |
-|-----------|---------|
-| **[trustgraph](https://github.com/trustgraph-ai/trustgraph)** | Core platform codebase |
-| **[trustgraph-docs](https://github.com/trustgraph-ai/trustgraph-docs)** | Documentation and guides |
-| **[trustgraph-examples](https://github.com/trustgraph-ai/trustgraph-examples)** | Example projects and notebooks |
-| **[mcp-servers](https://github.com/trustgraph-ai/mcp-servers)** | Model Context Protocol integrations |
-
-
-### Contributing
-
-We welcome contributions from developers, data engineers, and researchers:
-
-1. **[Read the Contributing Guide](https://github.com/trustgraph-ai/trustgraph/blob/main/CONTRIBUTING.md)** — Guidelines and process
-2. **[Check Open Issues](https://github.com/trustgraph-ai/trustgraph/issues)** — Find opportunities to contribute
-3. **[Join the Discord](https://discord.gg/trustgraph)** — Discuss ideas with the community
-4. **[Submit a PR](https://github.com/trustgraph-ai/trustgraph/pulls)** — Contribute improvements
-
----
-
-## 📊 Community & Stats
-
-- **⭐ 632 Stars** — Growing community of data engineers and AI practitioners
-- **📦 50 Forks** — Actively extended and customized by organizations
-- **🌐 Open Source** — Apache 2.0 licensed, no vendor lock-in
-- **💬 Active Community** — Discord, GitHub discussions, and regular updates
-
----
-
 ## 📚 Resources
 
 | Resource | Link |
@@ -241,16 +142,6 @@ We welcome contributions from developers, data engineers, and researchers:
 | **Blog** | [Latest News & Tutorials](https://trustgraph.ai/blog) |
 | **GitHub Issues** | [Report Bugs & Request Features](https://github.com/trustgraph-ai/trustgraph/issues) |
 | **GitHub Discussions** | [Ask Questions & Share Ideas](https://github.com/trustgraph-ai/trustgraph/discussions) |
-
----
-
-## 🔐 Security & Enterprise Readiness
-
-- **Data Sovereignty** — Complete control over where your data lives and how it's processed
-- **Open Source Transparency** — Audit every component; no hidden algorithms or proprietary black boxes
-- **Enterprise Authentication** — MCP authentication, access controls, and secrets management
-- **Production Ready** — Kubernetes-native, horizontally scalable, built for mission-critical workloads
-- **Compliance Support** — Full audit logging, data governance, and transparency for regulatory requirements
 
 ---
 
@@ -284,20 +175,3 @@ limitations under the License.
 - **🤓 Want to Discuss?** [Start a discussion](https://github.com/trustgraph-ai/trustgraph/discussions)
 - **🤝 Ready to Contribute?** [See the contributing guide](CONTRIBUTING.md)
 
----
-
-**Built by data engineers, for data engineers. Transform your data into intelligent context.**
-
-[Get Started](https://docs.trustgraph.ai/getting-started/quickstart.html) • [Explore Examples](https://github.com/trustgraph-ai/trustgraph-examples) • [Join the Community](https://discord.gg/trustgraph)
-
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->

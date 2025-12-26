@@ -8,12 +8,10 @@
 
 # The Context Operating System for AI Apps
 
-TrustGraph is an **open-source Context Operating System** that enables organizations to **build, manage, and deploy intelligent context graphs**. Transform fragmented enterprise data into AI-optimized knowledge structures that power accurate, trustworthy AI agents.
-
-Instead of relying on generic RAG solutions or proprietary black boxes, TrustGraph gives you a complete platform to:
+TrustGraph is an **open-source Context Operating System** that enables organizations to **build, manage, and deploy intelligent context graphs**. Transform fragmented enterprise data into AI-optimized context structures that power accurate, trustworthy AI agents.
 
 - **Build Context Graphs** — Automatically extract entities, relationships, and knowledge structures from your enterprise data
-- **Manage Context** — Organize, version, and govern your knowledge graphs with enterprise-grade tools
+- **Manage Context** — Organize, version, and govern your context graphs with enterprise-grade tools and custom ontologies
 - **Deploy Intelligent Agents** — Run AI agents grounded in your own precise context with full visibility and control
 - **Maintain Full Sovereignty** — Keep your data and AI stack entirely under your control, deployed on-prem, in the cloud, or on bare metal
 
@@ -49,8 +47,6 @@ Instead of relying on generic RAG solutions or proprietary black boxes, TrustGra
 
 ## Integrations
 
-TrustGraph connects seamlessly with your existing enterprise stack:
-
 ### LLM Providers
 Anthropic Claude • OpenAI • Google AI Studio • Google VertexAI • Mistral • Cohere • AWS Bedrock • Azure OpenAI
 
@@ -58,20 +54,19 @@ Anthropic Claude • OpenAI • Google AI Studio • Google VertexAI • Mistral
 Ollama • LM Studio • vLLM • Hugging Face TGI • Llamafiles
 
 ### Vector Databases
-Qdrant • Pinecone • Milvus • Chroma • Weaviate
+Qdrant • Pinecone • Milvus 
 
 ### Graph Storage
-Neo4j • Apache Cassandra • Memgraph • FalkorDB • ArangoDB
+Neo4j • Apache Cassandra • Memgraph • FalkorDB 
 
 ### Cloud Platforms
-AWS • Azure • Google Cloud • OVHcloud • Scaleway • Intel Tiber Cloud
+AWS • Azure • Google Cloud • OVHcloud • Scaleway 
 
 ### Observability & Monitoring
 Prometheus • Grafana
 
 ### External Tools & Services
 Model Context Protocol (MCP) for seamless agent integration with external APIs and tools
-
 
 ## License
 

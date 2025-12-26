@@ -68,10 +68,6 @@ Prometheus • Grafana
 ### External Tools & Services
 Model Context Protocol (MCP) for seamless agent integration with external APIs and tools
 
-## License
-
-TrustGraph is licensed under the **Apache License 2.0**. See [LICENSE](https://github.com/trustgraph-ai/trustgraph/blob/main/LICENSE) for details.
-
 ## Support & Community
 
 - **Have Questions?** [Join our Discord](https://discord.gg/sQMwkRz5GX)

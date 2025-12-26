@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./TG-fullname-logo.svg" width=100% />
+<img src="../TG-fullname-logo.svg" width=100% />
 
 [![PyPI version](https://img.shields.io/pypi/v/trustgraph.svg)](https://pypi.org/project/trustgraph/) ![E2E Tests](https://github.com/trustgraph-ai/trustgraph/actions/workflows/release.yaml/badge.svg)
 [![Discord](https://img.shields.io/discord/1251652173201149994

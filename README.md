@@ -11,9 +11,6 @@
 </div>
 
 # The Context Operating System for AI Apps
----
-
-## About TrustGraph
 
 TrustGraph is an **open-source Context Operating System** that enables organizations to **build, manage, and deploy intelligent context graphs**. Transform fragmented enterprise data into AI-optimized knowledge structures that power accurate, trustworthy AI agents.
 

@@ -6,9 +6,11 @@
 
 </div>
 
-# The Context Graph Factory for AI
+# Programmable Context for the AI Stack
 
-TrustGraph is an **open-source Context Operating System** that enables organizations to **build, manage, and deploy intelligent context graphs**. Transform fragmented enterprise data into AI-optimized context structures that power accurate, trustworthy AI agents.
+Operationalizing AI requires more than a vector database. TrustGraph provides the complete Context Operating System service layer. Flexible Flows for real-time ingestion, isolated Context Cores for secure multi-tenancy, and comprehensive observability. Treat your context like infrastructure — predictable, scalable, and fully under your control.
+
+Deploy anywhere. Own your data. Control your context.
 
 - **Build Context Graphs** — Automatically extract entities, relationships, and knowledge structures from your enterprise data
 - **Manage Context** — Organize, version, and govern your context graphs with enterprise-grade tools and custom ontologies

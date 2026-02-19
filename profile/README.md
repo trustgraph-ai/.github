@@ -6,7 +6,7 @@
 
 </div>
 
-# Programmable Context for the AI Stack
+# Graph powered context harness for AI agents
 
 Operationalizing AI requires more than a vector database. TrustGraph provides the complete Context Operating System service layer. Flexible Flows for real-time ingestion, isolated Context Cores for secure multi-tenancy, and comprehensive observability. Treat your context like infrastructure — predictable, scalable, and fully under your control.
 

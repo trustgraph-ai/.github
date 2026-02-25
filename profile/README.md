@@ -4,48 +4,40 @@
 
 [**Website**](https://trustgraph.ai) | [**Docs**](https://docs.trustgraph.ai) | [**YouTube**](https://www.youtube.com/@TrustGraphAI?sub_confirmation=1) | [**Configuration Builder**](https://config-ui.demo.trustgraph.ai/) | [**Discord**](https://discord.gg/sQMwkRz5GX) | [**Blog**](https://blog.trustgraph.ai/subscribe)
 
+# The context backend for AI agents
+
 </div>
 
-# Graph powered context harness for AI agents
+Durable agent memory you can trust. Build, version, and retrieve grounded context from a context graph.
 
-Operationalizing AI requires more than a vector database. TrustGraph provides the complete Context Operating System service layer. Flexible Flows for real-time ingestion, isolated Context Cores for secure multi-tenancy, and comprehensive observability. Treat your context like infrastructure — predictable, scalable, and fully under your control.
+- Give agents **memory** that persists across sessions and deployments.
+- Reduce hallucinations with **grounded context retrieval**
+- Ship reusable, portable [Context Cores](#context-cores) (packaged context you can move between projects/environments).
 
-Deploy anywhere. Own your data. Control your context.
-
-- **Build Context Graphs** — Automatically extract entities, relationships, and knowledge structures from your enterprise data
-- **Manage Context** — Organize, version, and govern your context graphs with enterprise-grade tools and custom ontologies
-- **Deploy Intelligent Agents** — Run AI agents grounded in your own precise context with full visibility and control
-- **Maintain Full Sovereignty** — Keep your data and AI stack entirely under your control, deployed on-prem, in the cloud, or on bare metal
-
-## Key Capabilities
-
-### Context Graph Construction
-
-- **Automated Entity & Relationship Extraction** — AI-powered agents automatically identify key concepts and connections in your data
-- **Ontology-Driven Graphs** — Define what *should* be extracted, not just what *can* be extracted, for consistent, controlled knowledge representation
-- **Multi-Format Data Support** — Process PDFs, documents, databases, APIs, and structured data sources simultaneously
-- **Vector Embedding Integration** — Automatic semantic embeddings mapped to graph relationships for hybrid retrieval
-
-### Context Management
-
-- **Context Cores** — Package and version your processed context for reuse across projects and deployments
-- **Collections** — Organize knowledge by domain, project, or dataset with enterprise governance controls
-- **Flow Configuration** — Design flexible data processing pipelines with runtime control and prompt management
-- **Observability & Telemetry** — Monitor processing status, costs, performance, and agent behavior in real-time
-
-### Agent Intelligence
-
-- **GraphRAG Queries** — Intelligent retrieval combining graph structure and semantic search for deep contextual understanding
-- **Agentic Workflows** — Build sophisticated agents that understand relationships, perform reasoning, and make decisions based on your knowledge
-- **Model Context Protocol (MCP)** — Connect agents to external tools, APIs, and services while maintaining grounded context
-- **Multi-Model Support** — Deploy local open-source models or connect to Anthropic, OpenAI, Google, Mistral, and other LLM providers
-
-### Enterprise Infrastructure
-
-- **Production Deployment** — Kubernetes-native, fully containerized, ready for enterprise scale
-- **Cost Observability** — Real-time tracking of token usage, inference costs, and resource consumption
-- **Access Controls & Secrets Management** — Enterprise security with fine-grained permissions and credential handling
-- **Flexible Storage** — Graph databases (Neo4j, Cassandra, Memgraph), vector stores (Qdrant, Pinecone, Milvus), and support for structured data
+The context backend:
+- [x] Multi-model and multimodal database system
+  - [x] Tabular/relational, key-value
+  - [x] Document, graph, and vectors
+  - [x] Images, video, and audio 
+- [x] Automated data ingest and loading
+  - [x] Quick ingest with semantic similarity retrieval
+  - [x] Ontology structuring for precision retrieval    
+- [x] 3D GraphViz for exploring context
+- [x] Fully Agentic System
+  - [x] Single Agent
+  - [x] Multi Agent
+  - [x] MCP integration 
+- [x] Run anywhere
+  - [x] Deploy locally with Docker
+  - [x] Deploy in cloud with Kubernetes
+- [x] Support for all major LLMs
+  - [x] API support for Anthropic, Cohere, Gemini, Mistral, OpenAI, and others
+  - [x] Model inferencing with vLLM, Ollama, TGI, LM Studio, and Llamafiles
+- [x] Developer friendly
+  - [x] REST API [Docs](https://docs.trustgraph.ai/reference/apis/rest.html)
+  - [x] Websocket API [Docs](https://docs.trustgraph.ai/reference/apis/websocket.html)
+  - [x] Python API [Docs](https://docs.trustgraph.ai/reference/apis/python)
+  - [x] CLI [Docs](https://docs.trustgraph.ai/reference/cli/)
 
 ## Integrations
 

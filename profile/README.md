@@ -4,17 +4,11 @@
 
 [**Website**](https://trustgraph.ai) | [**Docs**](https://docs.trustgraph.ai) | [**YouTube**](https://www.youtube.com/@TrustGraphAI?sub_confirmation=1) | [**Configuration Builder**](https://config-ui.demo.trustgraph.ai/) | [**Discord**](https://discord.gg/sQMwkRz5GX) | [**Blog**](https://blog.trustgraph.ai/subscribe)
 
-# The context backend for AI agents
+# The context development platform
 
-</div>
+Building applications that need to know things requires more than a database. TrustGraph is the context development platform: graph-native infrastructure for storing, enriching, and retrieving structured knowledge at any scale. Think like Supabase but built around context graphs: multi-model storage, semantic retrieval pipelines, portable context cores, and a full developer toolkit out of the box. Deploy locally or in the cloud. No unnecessary API keys. Just context, engineered.
 
-Durable agent memory you can trust. Build, version, and retrieve grounded context from a context graph.
-
-- Give agents **memory** that persists across sessions and deployments.
-- Reduce hallucinations with **grounded context retrieval**
-- Ship reusable, portable [Context Cores](#context-cores) (packaged context you can move between projects/environments).
-
-The context backend:
+The platform:
 - [x] Multi-model and multimodal database system
   - [x] Tabular/relational, key-value
   - [x] Document, graph, and vectors
@@ -47,11 +41,14 @@ Anthropic Claude • OpenAI • Google AI Studio • Google VertexAI • Mistral
 ### Local Model Orchestration
 Ollama • LM Studio • vLLM • Hugging Face TGI • Llamafiles
 
-### Vector Databases
-Qdrant • Pinecone • Milvus 
+### Vector Database
+Qdrant
 
-### Graph Storage
-Neo4j • Apache Cassandra • Memgraph • FalkorDB 
+### Multi-model Storage
+Apache Cassandra
+
+### File & Object Storage
+Garage
 
 ### Cloud Platforms
 AWS • Azure • Google Cloud • OVHcloud • Scaleway 

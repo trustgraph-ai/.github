@@ -6,6 +6,8 @@
 
 # The context development platform
 
+</div>
+
 Building applications that need to know things requires more than a database. TrustGraph is the context development platform: graph-native infrastructure for storing, enriching, and retrieving structured knowledge at any scale. Think like Supabase but built around context graphs: multi-model storage, semantic retrieval pipelines, portable context cores, and a full developer toolkit out of the box. Deploy locally or in the cloud. No unnecessary API keys. Just context, engineered.
 
 The platform:

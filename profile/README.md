@@ -4,62 +4,33 @@
 
 [**Website**](https://trustgraph.ai) | [**Docs**](https://docs.trustgraph.ai) | [**YouTube**](https://www.youtube.com/@TrustGraphAI?sub_confirmation=1) | [**Configuration Builder**](https://config-ui.demo.trustgraph.ai/) | [**Discord**](https://discord.gg/sQMwkRz5GX) | [**Blog**](https://blog.trustgraph.ai/subscribe)
 
-# The context development platform
+# Write context once. Run agents anywhere.
 
 </div>
 
-Building applications that need to know things requires more than a database. TrustGraph is the context development platform: graph-native infrastructure for storing, enriching, and retrieving structured knowledge at any scale. Think like Supabase but built around context graphs: multi-model storage, semantic retrieval pipelines, portable context cores, and a full developer toolkit out of the box. Deploy locally or in the cloud. No unnecessary API keys. Just context, engineered.
+Stop rebuilding context from scratch. TrustGraph treats context as a holon — a modular, independent whole that naturally snaps into a larger domain-wide intelligence layer. By deploying context as holonic context graphs, TrustGraph powers multi-tenant agent workflows, dramatically reduces token consumption, and aligns with semantic web standards (RDF, OWL, SKOS, SHACL). Version your context, share it across teams, and scale with full provenance.
 
-The platform:
-- [x] Multi-model and multimodal database system
-  - [x] Tabular/relational, key-value
-  - [x] Document, graph, and vectors
-  - [x] Images, video, and audio 
-- [x] Automated data ingest and loading
-  - [x] Quick ingest with semantic similarity retrieval
-  - [x] Ontology structuring for precision retrieval    
-- [x] 3D GraphViz for exploring context
-- [x] Fully Agentic System
-  - [x] Single Agent
-  - [x] Multi Agent
-  - [x] MCP integration 
-- [x] Run anywhere
-  - [x] Deploy locally with Docker
-  - [x] Deploy in cloud with Kubernetes
-- [x] Support for all major LLMs
-  - [x] API support for Anthropic, Cohere, Gemini, Mistral, OpenAI, and others
-  - [x] Model inferencing with vLLM, Ollama, TGI, LM Studio, and Llamafiles
-- [x] Developer friendly
-  - [x] REST API [Docs](https://docs.trustgraph.ai/reference/apis/rest.html)
-  - [x] Websocket API [Docs](https://docs.trustgraph.ai/reference/apis/websocket.html)
-  - [x] Python API [Docs](https://docs.trustgraph.ai/reference/apis/python)
-  - [x] CLI [Docs](https://docs.trustgraph.ai/reference/cli/)
+## What TrustGraph Does
+TrustGraph is a complete holonic context harness for all LLMs. It provides the full infrastructure layer underneath your agents: knowledge ingestion, structured storage, graph-grounded retrieval, agent orchestration, and a full LLM inferencing stack.
 
-## Integrations
+TrustGraph relies on absolutely no 3rd party services aside from optional API integrations to cloud-hosted LLMs. Whether you are using Anthropic's or OpenAI's API, or self-hosting Qwen3.7 via vLLM, TrustGraph handles it all with pre-built API connectors and a full LLM inferencing stack to enrich the models with a sovereign, private holonic system that grounds your agents in reality.
 
-### LLM Providers
-Anthropic Claude • OpenAI • Google AI Studio • Google VertexAI • Mistral • Cohere • AWS Bedrock • Azure OpenAI
+## The Problem: Why Agents Break
+When you build an AI agent today, you spend most of your time fighting context:
 
-### Local Model Orchestration
-Ollama • LM Studio • vLLM • Hugging Face TGI • Llamafiles
+- RAG retrieves fragments, not meaning. Chunks of text have no structure. Relationships between facts are invisible. Your agent guesses at the connections.
+- Context is disposable. What the agent learned in one session is gone in the next. There is no persistent, structured knowledge layer underneath.
+- Answers aren't traceable. You can't explain why the agent said what it said, which means you can't trust it in production.
+- Knowledge can't be reused. You rebuild the same context pipelines for every new project, every new agent, every new environment.
 
-### Vector Database
-Qdrant
+These aren't retrieval problems. They are structural problems. Context needs to be organized, versioned, and composable — exactly the way software infrastructure is.
 
-### Multi-model Storage
-Apache Cassandra
+## The Solution: A Holonic Context System
+The philosopher Arthur Koestler coined the word holon to describe something that is simultaneously a whole in itself and a part of something larger. A fact is whole. It is also part of a domain. A domain is whole. It is also part of an organization's knowledge.
 
-### File & Object Storage
-Garage
+AI agents break down because this holonic structure is never built. Context gets shoved into flat text windows, scattered across vector stores, or hardwired into one-off prompts. Facts lose their relationships.
 
-### Cloud Platforms
-AWS • Azure • Google Cloud • OVHcloud • Scaleway 
-
-### Observability & Monitoring
-Prometheus • Grafana
-
-### External Tools & Services
-Model Context Protocol (MCP) for seamless agent integration with external APIs and tools
+TrustGraph solves this by organizing your domain into holonic context graphs. Entities, relationships, and evidence are treated as first-class objects. Every agent query is grounded against these holons—marrying symbolic graph structures with vector embeddings. Every answer carries provenance. Every fact is traceable.
 
 ## Support & Community
 

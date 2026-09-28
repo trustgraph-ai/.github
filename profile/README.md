@@ -4,14 +4,13 @@
 
 [**Website**](https://trustgraph.ai) | [**Docs**](https://docs.trustgraph.ai) | [**YouTube**](https://www.youtube.com/@TrustGraphAI?sub_confirmation=1) | [**Launch TrustGraph**](https://config-ui.demo.trustgraph.ai/) | [**Discord**](https://discord.gg/sQMwkRz5GX) | [**Blog**](https://blog.trustgraph.ai/subscribe)
 
-# The Semantic Intelligence Layer
+# The Semantic Intelligence Layer for Ontologies
 
 </div>
 
+Bring your own ontology, build one, or use a domain standard in OWL. [TrustGraph](https://trustgraph.ai) turns raw data into governed, traceable, ontology-enhanced knowledge that agents can retrieve through native natural-language search.
 
-[TrustGraph](https://trustgraph.ai) is an open-source Semantic Intelligence Layer. It transforms raw, unstructured data into formally defined, ontology-grounded knowledge making that knowledge retrieval-ready with natural language, fully traceable, and portable across any standards-compliant system.
-
-AI applications fail without shared, unambiguous semantics. LLMs and agents operating on vector proximity across isolated text chunks can hallucinate, lose provenance, and produce non-deterministic outcomes. TrustGraph is the missing layer, a semantic substrate where every fact is typed, every relationship is defined, every agent action is traced back to its source knowledge stored in standards-compliant interoperable formats.
+AI applications need shared, unambiguous semantics. Vector search over isolated text chunks can leave agents without the structure or provenance to produce consistent outcomes. TrustGraph provides that foundation: typed facts, defined relationships, and agent actions traceable to source knowledge in interoperable, standards-compliant formats.
 
 ## The Problem: "Common Semantic Understanding"
 To understand why AI struggles in complex use cases, consider Abbott and Costello’s classic ["Who's on First?"](https://www.youtube.com/watch?v=sYOUFGfK4bU) routine.
@@ -31,6 +30,11 @@ If a user asks: "*Who is playing on first base?*"
 4. The LLM retrieves irrelevant documents and hallucinates, failing to understand that "Who" is an entity (a Person), not a question.
 
 Cosine similarity operates on fuzzy, statistical probability. It cannot distinguish between the linguistic usage of a word as a pronoun and its usage as a proper noun within a specific, localized context.
+
+## Put Ontologies in Action
+An ontology defines the concepts, unique definitions, and relationships that matter in a domain. In the “Who’s on First?” example, it distinguishes a player’s name from their position, so “Who” can be the name of the player at first base without being mistaken for a question. It gives knowledge extraction and retrieval a shared understanding instead of leaving a LLM to infer entity types, definitions, and relationships from each text chunk.
+
+TrustGraph puts that shared understanding to work. Bring an OWL ontology, build your own, or start with a domain standard. For each chunk of source text, TrustGraph retrieves the relevant part of the ontology to guide extraction, turning raw data into more consistent, ontology-enhanced knowledge. Native natural-language retrieval then makes that knowledge available to agents, with its provenance intact.
 
 ## The Semantic Intelligence Layer
 A semantic intelligence layer built using standards like RDF and OWL, establishes explicit, unambiguous semantics. It doesn't rely on "guessing" based on word proximity; it relies on defined relationships.

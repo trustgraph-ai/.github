@@ -4,7 +4,7 @@
 
 [**Website**](https://trustgraph.ai) | [**Docs**](https://docs.trustgraph.ai) | [**YouTube**](https://www.youtube.com/@TrustGraphAI?sub_confirmation=1) | [**Launch TrustGraph**](https://config-ui.demo.trustgraph.ai/) | [**Discord**](https://discord.gg/sQMwkRz5GX) | [**Blog**](https://blog.trustgraph.ai/subscribe)
 
-# Business meaning in the graph. Business authority in the runtime.
+# The Semantic Agent Governance Platform
 
 </div>
 
